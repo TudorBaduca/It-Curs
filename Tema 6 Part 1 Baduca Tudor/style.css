@@ -1,0 +1,52 @@
+h2 {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+ .box{
+    border: 1px solid rgb(212, 210, 210);
+    border-radius: 10px;
+    height: 50%;
+    width: 30%;
+    margin: auto;
+ }
+ body{
+     height: 100%;
+ }
+
+ html{
+     height: 100%;
+ }
+ .buyedButton{
+     background-color: pink;
+
+ }
+ #adding{
+    border: 2px solid rgb(92, 133, 221);
+    background-color: rgb(92, 133, 221);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 7px 15px
+ }
+ #sorting{
+     margin-top: 5%;
+ }
+ #ascButton{
+
+    border: 2px solid rgb(168, 109, 235);
+    background-color: rgb(168, 109, 235);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+
+ }
+ #descButton{
+    border: 2px solid rgb(168, 109, 235);
+    background-color: rgb(168, 109, 235);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+ }
+ #content{
+     margin-left: 25%;
+    }

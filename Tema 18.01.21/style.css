@@ -1,0 +1,130 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.headerPart {
+    padding: 2%;
+    /* background-color: rgb(238, 235, 235); */
+    margin: 3%;
+    /* background-image: url("PozaHeader,jpg"); */
+    background-image : url(/Images/PozaHeader.jpg.jpg);
+
+}
+
+.leftBox { 
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;    
+}
+.rightBox {
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:space-between; */
+    width: 50%;
+    position: relative;
+}
+
+.titleHeader {
+    margin-left: 20%;
+    
+
+}
+#contactTitle { display: inline-block;
+    font-size: 3.5em;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+span {
+    margin-left: 10px;
+    font-size: 2em;
+    color: grey;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    border-radius: 5px;
+    border-color: navajowhite
+}
+
+.box {
+    
+
+
+  
+  border: 1px solid  rgb(212, 210, 210);
+  border-radius: 10px;
+  height: 200px;
+  width: 45%;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  position: relative;
+  background-color: rgb(243, 243, 243);
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+}
+
+label {
+    font-weight: 600;
+}
+
+.button {
+    position: absolute;
+    bottom: 5%;
+    right: 5%; 
+  }
+
+  #Message-right {
+    border: 2px solid rgb(92, 133, 221);
+    background-color: rgb(92, 133, 221);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 7px 15px;
+   
+
+    
+  }
+
+  .Footer-Part{
+      margin-left: 40%;
+      font-size: 1.5em;
+  }
+
+  .Social-Media{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    
+      
+  }
+.Social-Media p{
+    
+    padding: 5%;   
+}
+
+a{
+    text-decoration: none;
+    color: rgb(72, 109, 190);
+}
+
+#Message{
+    border-radius: 5px;
+    border-color: navajowhite;
+}
+
+hr{
+    width: 15%;
+    margin-left: 40%;
+}

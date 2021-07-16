@@ -1,0 +1,47 @@
+
+.menu {
+    display: flex;
+    background-color: bisque;
+    width: 80%;
+    margin: 0 auto;
+    height: 3rem;
+    justify-content: center;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin:0 auto
+  
+}
+
+.menuitem {
+    /* border: 1px solid black;
+    font-size: 1rem;
+    height: 100%;
+    display: inline-block;*/
+    padding: 0 2.5%; 
+    background-color: bisque;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+
+    
+  }
+  .menuitem:hover {
+
+    background-color: cadetblue;
+  }
+
+  #submenu {
+      display: block;
+  }
+
+  .logo,
+  .contact {
+      display: flex;
+      align-items: center;
+  }
+  

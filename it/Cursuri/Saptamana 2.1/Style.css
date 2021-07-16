@@ -1,0 +1,12 @@
+ul { color: pink;} 
+
+* {margin: 0; padding: 0;}
+
+
+
+p, ul { margin: 17px;
+    border: 1px solid;
+    border-color: black;
+    padding: 10px;
+}
+

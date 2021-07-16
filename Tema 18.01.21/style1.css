@@ -1,0 +1,35 @@
+#Top-Bar {
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+    
+
+
+
+}
+
+#Top-Right {
+   
+    display: flex;
+    direction: row;
+    justify-content: space;
+
+
+}
+
+.buttons {
+    padding-right: 15px;
+
+}
+a {text-decoration: none;
+    color: black;}
+
+img { border-radius: 50%;
+      width: 200px; 
+      margin-left:10px;}
+
+      
+
+        h1 {
+            text-align: center;
+        }

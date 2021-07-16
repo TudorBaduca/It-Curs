@@ -1,0 +1,90 @@
+body {
+    font-family: sans-serif;
+    font-size: large;
+}
+
+
+.Box {
+    
+
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+
+  
+  
+  height: 170px;
+  width: 13%;
+  margin: 19% 25% 25% 38%;
+  background: white;
+  border-radius: 5px;
+  border: 12px lightgrey;
+  padding: 2rem;
+  position: relative;
+}
+
+.bar-name {
+      margin-top: 0.5rem;
+
+}
+
+input {
+  width: 100%;
+  font-size: large;
+  padding: 5px;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 12%;
+  right: 10%;
+  
+}
+
+#submitButton {
+  border: 2px solid rgb(87, 85, 217);
+  background-color: rgb(87, 85, 217);
+  /* padding: 5px;
+  color: white;
+  text-decoration: none; */
+  border: none;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+#closeButton {
+  color: rgb(87, 85, 217);
+  cursor: pointer;
+}
+.material-icons {
+  float: right;
+  cursor: pointer;
+}
+
+h3 {
+  margin-top: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+

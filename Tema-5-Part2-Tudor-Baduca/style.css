@@ -1,0 +1,109 @@
+html{
+  height: 100%;
+}
+
+
+body {
+  height: 100%;
+}
+
+
+
+
+
+
+.box {
+  /* display: inline-block;
+   width: 55%;
+   margin: auto;
+   position: relative;
+   margin-top: 20%; */
+
+  border: 1px solid rgb(212, 210, 210);
+  border-radius: 10px;
+  height: 30%;
+  width: 30%;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  /* position: relative; */
+  background-color: rgb(243, 243, 243);
+  /* margin-top: 20%; */
+}
+
+.leftTop {
+  width: 49%;
+  position: relative;
+  height: 100%;
+  display: inline-block;
+}
+
+.radioButton{
+  margin-left: 35%
+}
+
+#lastName{
+  margin-top: 7%;
+  width: 100%;
+}
+#name{
+  width: 100%;
+}
+#message{
+  margin-top: 5%;
+}
+p{
+  margin-bottom: 0%
+  
+}
+#Button{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
+  background-color: rgb(87, 85, 217);
+  border: none;
+  padding: 7px 15px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+#feedbackForm{
+  height: 100%;
+}
+.right{
+  display: inline-block;
+  width: 49%;
+}
+#image{
+margin-left: 15%;
+
+}
+.banner{
+  
+  margin: auto;
+  width: 32.5%;
+  margin-top: 15%;
+  border-radius: 2%;
+  border: 1px;
+  background-color: rgb(201, 233, 198);
+  visibility: hidden;
+  margin-bottom: 0.7%;
+  padding: 0.5%;
+}
+#bannerP{
+  display: inline-block;
+  margin-top: 0%;
+
+}
+.icon2{
+  float: right;
+}
+
+.iconLeft{
+  margin-left: 2%;
+}
+.fa-check-circle{
+  margin-right: 1%;
+}

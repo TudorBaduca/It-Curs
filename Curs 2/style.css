@@ -1,0 +1,44 @@
+/* * { 
+    margin: 0;
+    padding: 0;
+}
+body, h1, p, ul, li { margin: 0; padding: 0;}
+
+p, ul {
+    margin: 120px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+ul {
+    color: blueviolet;
+}
+
+p::first-letter {
+    color: red;
+}
+
+p:hover {
+    color: coral;
+}
+
+#par-1 {
+    color: darkgoldenrod;
+} */
+
+.content, p {
+   text-shadow: -2px -2px 4px #000000;
+   text-align: justify;
+   word-break: keep-all;
+   text-overflow:  clip ellipsis;
+} 
+button { 
+    width: 80px;
+    height: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+
+}
+

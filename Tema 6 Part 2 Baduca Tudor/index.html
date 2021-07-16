@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="box">
+      <h2>CATALOG DE NOTE</h2>
+      <div>
+        <input type="text" id="bar" placeholder="Add New Student" />
+        <button id="adding">Adauga</button> <br />
+      </div>
+
+      <div id="lowerButtons">
+        <button id="ascButton">Sort asc</button>
+        <button id="descButton">Sort desc</button>
+      </div>
+
+      <table id="table" border="1">
+        <thead>
+          <th class="bigger">Name</th>
+          <th class="smaller">Grade Avg</th>
+          <th class="bigger">Student Grades</th>
+          <th class="smaller">Delete Student</th>
+        </thead>
+        <tbody id="structure"></tbody>
+      </table>
+
+      <div id="hidden">
+        <button id="hideGrades">Ascunde Notele</button>
+        <p>Note Student<span id="studentName"></span></p>
+        <input type="text" id="secondBar" placeholder="Introduceti Nota" />
+        <button id="addingPart2">Adauga Nota Studentului</button>
+        <div>
+          <table id="tablePart2" border="1">
+            <thead>
+              <th>Note</th>
+              <th>X</th>
+            </thead>
+            <tbody id="structurePart2"></tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+
+    <script src="page.js"></script>
+  </body>
+</html>
